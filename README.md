@@ -77,8 +77,6 @@ The package contains no Apex, no Visualforce, no third-party libraries, and make
 
 Make Pretty parses input in the browser using the standard `JSON.parse`, `DOMParser`, and `atob` APIs, and writes the result back into the text area through normal LWC data binding. No data leaves the page.
 
-Salesforce Code Analyzer (Recommended and AppExchange rules) reports 0 violations. The reports are in [`assets/`](assets/).
-
 ## Development
 
 ### Prerequisites
