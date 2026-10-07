@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>MakePretty_CardTitle</fullName>
+        <categories>Make Pretty</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Make Pretty card title</shortDescription>
+        <value>Make Pretty</value>
+    </labels>
+    <labels>
+        <fullName>MakePretty_DecodeButton</fullName>
+        <categories>Make Pretty</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Make Pretty base 64 decode button label</shortDescription>
+        <value>Base 64 Decode</value>
+    </labels>
+    <labels>
+        <fullName>MakePretty_FieldLabel</fullName>
+        <categories>Make Pretty</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Make Pretty input field label</shortDescription>
+        <value>JSON or XML</value>
+    </labels>
+    <labels>
+        <fullName>MakePretty_InvalidBase64</fullName>
+        <categories>Make Pretty</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Make Pretty invalid base 64 error</shortDescription>
+        <value>This isn&apos;t a valid Base 64 encoded string</value>
+    </labels>
+    <labels>
+        <fullName>MakePretty_InvalidContent</fullName>
+        <categories>Make Pretty</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Make Pretty error when the content matches neither format</shortDescription>
+        <value>That isn&apos;t valid XML or JSON.</value>
+    </labels>
+    <labels>
+        <fullName>MakePretty_InvalidJson</fullName>
+        <categories>Make Pretty</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Make Pretty invalid JSON error</shortDescription>
+        <value>That isn&apos;t valid JSON</value>
+    </labels>
+    <labels>
+        <fullName>MakePretty_InvalidXml</fullName>
+        <categories>Make Pretty</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Make Pretty invalid XML error</shortDescription>
+        <value>That isn&apos;t valid XML</value>
+    </labels>
+    <labels>
+        <fullName>MakePretty_Placeholder</fullName>
+        <categories>Make Pretty</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Make Pretty input placeholder text</shortDescription>
+        <value>Paste unformatted JSON or XML here</value>
+    </labels>
+    <labels>
+        <fullName>MakePretty_PrettifyButton</fullName>
+        <categories>Make Pretty</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Make Pretty format button label</shortDescription>
+        <value>Prettify</value>
+    </labels>
+</CustomLabels>

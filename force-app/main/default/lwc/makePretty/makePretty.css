@@ -1,0 +1,15 @@
+/* lightning-card still renders an empty header element when it has no title,
+   leaving its block-start spacing as stray padding above the body. */
+.collapse-empty-header {
+  --slds-c-card-header-spacing-block-start: 0;
+}
+
+.source-input {
+  min-height: 20rem;
+  font-family: Menlo, Consolas, "Courier New", monospace;
+  font-size: 0.8125rem;
+  line-height: 1.45;
+  white-space: pre;
+  overflow: auto;
+  resize: vertical;
+}

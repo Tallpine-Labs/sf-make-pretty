@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!--
+        Make Pretty - everything required to deploy the JSON/XML formatter
+        into another org.
+
+        The labels must be present before the component compiles, because the
+        LWC resolves @salesforce/label imports at compile time. Listing them in
+        the same manifest is enough; the platform orders them correctly within
+        a single deployment.
+
+        Deploy with:
+          sf project deploy start --manifest manifest/package.xml --target-org <alias>
+
+        Then grant access, since a newly deployed custom tab is hidden from
+        every profile until it is:
+          sf org assign permset --name Make_Pretty_Access --target-org <alias>
+    -->
+    <types>
+        <members>MakePretty_CardTitle</members>
+        <members>MakePretty_DecodeButton</members>
+        <members>MakePretty_FieldLabel</members>
+        <members>MakePretty_InvalidBase64</members>
+        <members>MakePretty_InvalidContent</members>
+        <members>MakePretty_InvalidJson</members>
+        <members>MakePretty_InvalidXml</members>
+        <members>MakePretty_Placeholder</members>
+        <members>MakePretty_PrettifyButton</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>Make_Pretty</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>makePretty</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>Make_Pretty_Access</members>
+        <name>PermissionSet</name>
+    </types>
+    <version>62.0</version>
+</Package>
